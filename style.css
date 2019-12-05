@@ -3,7 +3,7 @@
 } */
 
 * {
-  background-image: linear-gradient(to right, rgb(49, 38, 38), #000000);
+  background-image: linear-gradient(right, rgb(49, 38, 38), #000000);
 }
 h1 {
   font-size: 100px;
@@ -86,7 +86,7 @@ ul li a {
   padding-left: 20px;
   transform: rotate(-30deg) skew(25deg) translate(0, 0);
   transition: 0.5s;
-  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: -20px 20px 10px rgba(255, 255, 255, 0.5);
 }
 ul li a:before {
   content: '';
@@ -113,7 +113,7 @@ ul li a:after {
 
 ul li a:hover {
   transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
-  box-shadow: -50px 50px 50px rgba(148, 148, 148, 0.5);
+  box-shadow: -50px 50px 50px rgba(255, 255, 255, 0.5);
 }
 
 ul li:hover .fa {
