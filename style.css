@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
 html {
   position: relative;
   overflow-x: hidden !important;
@@ -13,7 +13,8 @@ body {
   color: #324e63;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -34,9 +35,9 @@ a, a:hover {
   padding: 50px 20px;
   padding-top: 100px;
   display: flex;
-  background-image: linear-gradient(-20deg, #4d4d4d 0%, #000000 100%);
+  background-image: linear-gradient(-20deg, #000000 0%, #d0d1df 100%);
   display: flex;
-  background-image: linear-gradient(-20deg, #4d4d4d 0%, #000000 100%);
+  background-image: linear-gradient(-20deg, #287eff 0%, #1d1e3d 100%);
 }
 @media screen and (max-width: 768px) {
   .wrapper {
@@ -48,12 +49,12 @@ a, a:hover {
 
 .profile-card {
   width: 100%;
-  min-height: 460px;
+  min-height: 350px;
   margin: auto;
   box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
   background: #fff;
   border-radius: 12px;
-  max-width: 700px;
+  max-width: 500px;
   position: relative;
 }
 .profile-card.active .profile-card__cnt {
@@ -63,11 +64,11 @@ a, a:hover {
 .profile-card.active .profile-card__overlay {
   opacity: 1;
   pointer-events: auto;
-  transition-delay: .1s;
+  transition-delay: 0.1s;
 }
 .profile-card.active .profile-card-form {
   transform: none;
-  transition-delay: .1s;
+  transition-delay: 0.1s;
 }
 .profile-card__img {
   width: 150px;
@@ -79,7 +80,7 @@ a, a:hover {
   overflow: hidden;
   position: relative;
   z-index: 4;
-  box-shadow: 0px 5px 50px 0px #2d00ce, 0px 0px 0px 7px rgba(31, 0, 170, 0.5);
+  box-shadow: 0px 5px 50px 0px #faf9ff, 0px 0px 0px 7px rgba(131, 171, 199, 0.5);
 }
 @media screen and (max-width: 576px) {
   .profile-card__img {
@@ -99,7 +100,7 @@ a, a:hover {
   text-align: center;
   padding: 0 20px;
   padding-bottom: 40px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 .profile-card__name {
   font-weight: 700;
@@ -111,7 +112,7 @@ a, a:hover {
   font-size: 18px;
   font-weight: 500;
   color: #324e63;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .profile-card__txt strong {
   font-weight: 700;
@@ -122,6 +123,7 @@ a, a:hover {
   align-items: center;
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 15px;
 }
 .profile-card-loc__icon {
   display: inline-flex;
@@ -175,7 +177,7 @@ a, a:hover {
   position: relative;
   font-size: 21px;
   flex-shrink: 0;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 @media screen and (max-width: 768px) {
   .profile-card-social__item {
@@ -194,7 +196,15 @@ a, a:hover {
   box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
 }
 .profile-card-social__item.instagram {
-  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background: linear-gradient(
+    45deg,
+    #fec55d,
+    #f57133,
+    #e94756,
+    #be3288,
+    #8a43c5,
+    #5360cc
+  );
   box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.6);
 }
 .profile-card-social__item.github {
@@ -202,12 +212,12 @@ a, a:hover {
   box-shadow: 0px 4px 30px rgba(63, 65, 67, 0.6);
 }
 .profile-card-social__item.linkedin {
-  background: linear-gradient(45deg, #324e63, #414447);
-  box-shadow: 0px 4px 30px rgba(55, 75, 90, 0.6);
+  background: linear-gradient(45deg, #016097, #0096b7);
+  box-shadow: 0px 4px 30px rgba(26, 51, 77, 0.6);
 }
 .profile-card-social__item.youtube {
-  background: linear-gradient(45deg, #d5135a, #f05924);
-  box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.6);
+  background: linear-gradient(45deg, #c44f7a, #f02424);
+  box-shadow: 0px 4px 30px rgba(165, 57, 72, 0.6);
 }
 .profile-card-social .icon-font {
   display: inline-flex;
@@ -237,7 +247,7 @@ a, a:hover {
   color: #fff;
   cursor: pointer;
   backface-visibility: hidden;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 @media screen and (max-width: 768px) {
   .profile-card__button {
@@ -300,7 +310,7 @@ a, a:hover {
   padding-bottom: 100px;
   opacity: 0;
   pointer-events: none;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 .profile-card-form {
   box-shadow: 0 4px 30px rgba(15, 22, 56, 0.35);
@@ -314,7 +324,7 @@ a, a:hover {
   transform: scale(0.8);
   position: relative;
   z-index: 3;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 @media screen and (max-width: 768px) {
   .profile-card-form {
@@ -348,7 +358,7 @@ a, a:hover {
   font-weight: 500;
   font-family: 'Quicksand', sans-serif;
   outline: none;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 .profile-card textarea:focus {
   outline: none;
@@ -364,5 +374,5 @@ a, a:hover {
   opacity: 0;
   background: rgba(22, 33, 72, 0.35);
   border-radius: 12px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
